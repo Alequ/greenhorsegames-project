@@ -1,0 +1,109 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <!-- Project init with HTML5 Boilerplate
+                          https://html5boilerplate.com/
+                                                             --->
+
+        <!--*****************************************************************************************************************************************
+
+            If you want to check errors without apache server use a google chrome/firefox extension for CORS : https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en
+
+                else
+
+            Change to process.php in ajax rquest url  (main.js);        
+
+
+        Responsive, layout made with css grid, supports all browsers beside IE....
+
+        AJAX post request made with jquery
+
+        Any feedback would be greatly appreciated. Cheers.
+
+          ******************************************************************************************************************************************* --->
+
+
+        <!-- Container -->
+        <div class="container">
+          <!-- Wrapper grid -->
+          <div class="wrapper-grid">
+            <!-- Logo Image -->
+            <img src="img/logo.png" alt="logo ultras" id="logo">
+            <!-- Form Div -->
+            <div id="formDiv">
+              <!-- Start form -->
+              <form class="validate-form" method="post" name="postForm">
+                <!-- name input -->
+                <div class="wrap-input1">
+                  <div class="popup popup-name" >
+                    <img src="img/x.png" alt="">
+                    <span class="popuptext"></span>
+                  </div>
+            			<input class="input1 input-name" type="text" name="name" placeholder="NAME">
+        				</div>
+                <!-- email input -->
+        				<div class="wrap-input1 " >
+                  <div class="popup popup-email" >
+                    <img src="img/x.png" alt="">
+                    <span class="popuptext"></span>
+                  </div>
+        					<input class="input1 input-email" type="text" name="email" placeholder="EMAIL">
+        				</div>
+                <!-- message textarea -->
+        				<div class="wrap-input1 wrap-message">
+                  <div class="popup popup-message">
+                    <img src="img/x.png" alt="">
+                    <span class="popuptext"></span>
+                  </div>
+        					<textarea class="input1 input-message" name="message" placeholder="MESSAGE"></textarea>
+        				</div>
+                <!-- submit button -->
+        				<div class="container-contact-form-btn">
+        					<button class="contact-form-btn">
+        						<span>
+        							Send
+        						</span>
+        					</button>
+        				</div>
+        			</form><!-- end form-->
+            </div><!--- end form div-->
+
+            <!-- Footer -->
+            <div class="footer">
+              <p>THIS IS JUST A FRONT-END TEST <br> FOR GREENHORSEGAMES</p>
+            </div><!-- end footer-->
+
+          </div><!--end wrapper div-->
+        </div><!--end container div-->
+
+
+
+
+        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    </body>
+</html>
